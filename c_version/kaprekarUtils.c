@@ -29,7 +29,7 @@ int isKaprekar(int n) {
     return 0;
   }
 
-  int i;
+  int i = 0;
   //compute the square
   long square = n * (long) n;
   //compute the number of digits of the square
